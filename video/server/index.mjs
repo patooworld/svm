@@ -56,4 +56,4 @@ app.post('/api/prompt', async (req, res) => {
 
 const port = process.env.NODE_ENV === 'production' ? 8080 : 8000
 
-ViteExpress.listen(app, port, () => console.log('Server is listening...'))
+ViteExpress.listen(app, port, () => console.log('8080'))
